@@ -62,6 +62,7 @@ Step 4: Run the Script
 Once all the libraries are installed, you can run your Python script
 
 Troubleshooting:
-	• pip or python command not found: This usually means Python or pip is not correctly installed or not added to your system's PATH. Revisit the Python installation steps.
-	• ModuleNotFoundError: If you get an error like ModuleNotFoundError: No module named 'matplotlib', it means that specific library wasn't installed correctly or you are not running the script in the environment where you installed it (e.g., virtual environment is not active). Double-check the installation steps.
-	• Permissions Issues (Linux/macOS): If you get permission errors, you might need to use sudo pip install ... (though it's generally better to use virtual environments to avoid needing sudo for pip). On Windows, you might need to run the Command Prompt as an Administrator if you encounter permission issues, but this is less common for pip installs into user space or virtual environments.
+1. pip or python command not found: This usually means Python or pip is not correctly installed or not added to your system's PATH. Revisit the Python installation steps.
+2. ModuleNotFoundError: If you get an error like ModuleNotFoundError: No module named 'matplotlib', it means that specific library wasn't installed correctly or you are not running the script in the environment where you installed it (e.g., virtual environment is not active). Double-check the installation steps.
+3. Permissions Issues (Linux/macOS): If you get permission errors, you might need to use sudo pip install ... (though it's generally better to use virtual environments to avoid needing sudo for pip).
+4. On Windows, you might need to run the Command Prompt as an Administrator if you encounter permission issues, but this is less common for pip installs into user space or virtual environments.
